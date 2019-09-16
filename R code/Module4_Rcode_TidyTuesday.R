@@ -1,4 +1,4 @@
-##### Description: Codes for data visualization of Amusement Park injuries (#TidyTuesday project)
+##### Description: BAE590 Module 4 Assignment; Codes for data visualization of Amusement Park injuries (#TidyTuesday)
 ##### Author: Kanjana Laosuntisuk
 ##### Date created: Sep 14, 2019
 ##### Last modified: Sep 16, 2019
