@@ -27,7 +27,7 @@ tx_injuries_tx_gender_age$city <- toupper(tx_injuries_tx_gender_age$city)
 #Make a histogram
 Rplot_tx_injuries <- ggplot(data = tx_injuries_tx_gender_age, aes(age, fill = gender)) + 
   geom_histogram(position = "dodge") +
-  labs(x = "Age", y = "Number of Individuals", title = "Injuries in Texas Amusement Park", subtitle = "Age and Gender of Injured Individuals in Different Cities", caption = "Data source: data.world and Safer Parks database") +
+  labs(x = "Age", y = "Number of Individuals", title = "Injuries in Texas Amusement Parks", subtitle = "Age and Gender of Injured Individuals in Different Cities", caption = "Data source: data.world and Safer Parks database") +
   scale_fill_discrete(name = "Gender", labels = c("Female", "Male")) +
   theme_grey() +
   facet_wrap(~city, nrow = 10) + 
@@ -38,4 +38,3 @@ plot(Rplot_tx_injuries)
 
 #Save a plot
 ggsave("Rplot_tx_injuries.pdf", width = 8.5, height = 11, units = "in")
-                     
